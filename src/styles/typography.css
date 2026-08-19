@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap");
+
+:root {
+  /* --font-family-default: "Inter", sans-serif; */
+  --font-family-default: "Tasa Orbiter", sans-serif;
+  --font-family-mono: "Jetbrains Mono", monospace;
+  --font-family-inter: "Inter", sans-serif;
+
+  --font-size-xxs: 0.625rem;
+  --font-size-xs: 0.7rem;
+  --font-size-sm: 0.8175rem;
+  --font-size-md: 0.935rem;
+  --font-size-lg: 1.1rem;
+  --font-size-xl: 1.35rem;
+  --font-size-2xl: 1.65rem;
+  --font-size-3xl: 2rem;
+
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0.02em;
+  --letter-spacing-wide: 0.05em;
+  --letter-spacing-extra-wide: 0.1em;
+
+  --font-weight-normal: 400;
+  --font-weight-semibold: 700;
+  --font-weight-bold: 800;
+}
+
+body {
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-md);
+  font-style: var(--font-weight-normal);
+  font-weight: var(--font-weight-normal);
+  font-optical-sizing: auto;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  color: var(--color-text-neutral);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-inter);
+  font-style: normal;
+  font-weight: var(--font-weight-semibold);
+  font-optical-sizing: auto;
+  color: var(--color-text-neutral-emphasis);
+  letter-spacing: var(--letter-spacing-normal);
+}
+
+h1 {
+  font-size: var(--font-size-3xl);
+}
+
+h2 {
+  font-size: var(--font-size-2xl);
+}
+
+h3 {
+  font-size: var(--font-size-xl);
+}
+
+p,
+a {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-normal);
+  letter-spacing: var(--letter-spacing-normal);
+}
+
+b,
+strong {
+  padding: 0 var(--spacing-0_5);
+  font-weight: var(--font-weight-bold);
+}

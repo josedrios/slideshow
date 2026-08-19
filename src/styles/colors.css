@@ -1,0 +1,140 @@
+:root {
+  /* Neutrals */
+  --neutral-50: oklch(1 0 0);
+  --neutral-100: oklch(0.94 0 0);
+  --neutral-200: oklch(0.88 0 0);
+  --neutral-300: oklch(0.81 0 0);
+  --neutral-400: oklch(0.75 0 0);
+  --neutral-500: oklch(0.69 0 0);
+  --neutral-600: oklch(0.62 0 0);
+  --neutral-700: oklch(0.56 0 0);
+  --neutral-800: oklch(0.5 0 0);
+  --neutral-900: oklch(0.43 0 0);
+  --neutral-1000: oklch(0.36 0 0);
+  --neutral-1100: oklch(0.29 0 0);
+  --neutral-1150: oklch(0.25 0 0);
+  --neutral-1200: oklch(0.22 0 0);
+  --neutral-1250: oklch(0.19 0 0);
+  --neutral-1300: oklch(0.16 0 0);
+  --neutral-1400: oklch(0.1 0 0);
+
+  --white-alpha-25: oklch(1 0 0 / 5%);
+  --white-alpha-50: oklch(1 0 0 / 10%);
+  --white-alpha-100: oklch(1 0 0 / 15%);
+  --white-alpha-150: oklch(1 0 0 / 20%);
+  --white-alpha-200: oklch(1 0 0 / 25%);
+  --white-alpha-300: oklch(1 0 0 / 35%);
+  --white-alpha-400: oklch(1 0 0 / 45%);
+  --white-alpha-500: oklch(1 0 0 / 55%);
+  --white-alpha-600: oklch(1 0 0 / 65%);
+  --white-alpha-700: oklch(1 0 0 / 75%);
+  --white-alpha-800: oklch(1 0 0 / 85%);
+  --white-alpha-900: oklch(1 0 0 / 95%);
+
+  --black-alpha-50: oklch(0.2 0 0 / 5%);
+  --black-alpha-100: oklch(0.2 0 0 / 15%);
+  --black-alpha-200: oklch(0.2 0 0 / 25%);
+  --black-alpha-300: oklch(0.2 0 0 / 35%);
+  --black-alpha-400: oklch(0.2 0 0 / 45%);
+  --black-alpha-500: oklch(0.2 0 0 / 55%);
+  --black-alpha-600: oklch(0.2 0 0 / 65%);
+  --black-alpha-700: oklch(0.2 0 0 / 75%);
+  --black-alpha-800: oklch(0.2 0 0 / 85%);
+  --black-alpha-900: oklch(0.2 0 0 / 95%);
+
+  /* Red - Danger */
+  --red-50: oklch(0.99 0.01 25);
+  --red-100: oklch(0.97 0.03 25);
+  --red-200: oklch(0.93 0.06 25);
+  --red-300: oklch(0.87 0.11 25);
+  --red-400: oklch(0.79 0.18 25);
+  --red-500: oklch(0.69 0.24 25);
+  --red-600: oklch(0.6 0.23 25);
+  --red-700: oklch(0.5 0.2 25);
+  --red-800: oklch(0.39 0.16 25);
+  --red-900: oklch(0.28 0.11 25);
+  --red-1000: oklch(0.16 0.05 25);
+
+  --red-alpha-50: oklch(0.69 0.24 25 / 5%);
+  --red-alpha-100: oklch(0.69 0.24 25 / 10%);
+  --red-alpha-200: oklch(0.69 0.24 25 / 15%);
+  --red-alpha-300: oklch(0.69 0.24 25 / 20%);
+  --red-alpha-400: oklch(0.69 0.24 25 / 25%);
+  --red-alpha-500: oklch(0.69 0.24 25 / 30%);
+  --red-alpha-600: oklch(0.69 0.24 25 / 40%);
+  --red-alpha-700: oklch(0.69 0.24 25 / 50%);
+  --red-alpha-800: oklch(0.69 0.24 25 / 60%);
+  --red-alpha-900: oklch(0.69 0.24 25 / 70%);
+
+  /* Green - Primary */
+  --green-50: oklch(0.99 0 155);
+  --green-100: oklch(0.96 0.02 155);
+  --green-200: oklch(0.91 0.04 155);
+  --green-300: oklch(0.84 0.08 155);
+  --green-400: oklch(0.77 0.12 155);
+  --green-500: oklch(0.69 0.17 155);
+  --green-600: oklch(0.59 0.15 155);
+  --green-700: oklch(0.51 0.13 155);
+  --green-800: oklch(0.4 0.1 155);
+  --green-900: oklch(0.29 0.07 155);
+  --green-1000: oklch(0.11 0.03 155);
+
+  --green-alpha-50: oklch(0.69 0.17 155 / 5%);
+  --green-alpha-100: oklch(0.69 0.17 155 / 10%);
+  --green-alpha-200: oklch(0.69 0.17 155 / 15%);
+  --green-alpha-300: oklch(0.69 0.17 155 / 20%);
+  --green-alpha-400: oklch(0.69 0.17 155 / 25%);
+  --green-alpha-500: oklch(0.69 0.17 155 / 30%);
+  --green-alpha-600: oklch(0.69 0.17 155 / 40%);
+  --green-alpha-700: oklch(0.69 0.17 155 / 50%);
+  --green-alpha-800: oklch(0.69 0.17 155 / 60%);
+  --green-alpha-900: oklch(0.69 0.17 155 / 70%);
+
+  /* Blue - Inform */
+  --blue-50: oklch(0.99 0 248);
+  --blue-100: oklch(0.96 0.02 248);
+  --blue-200: oklch(0.92 0.04 248);
+  --blue-300: oklch(0.85 0.08 248);
+  --blue-400: oklch(0.79 0.12 248);
+  --blue-500: oklch(0.7 0.17 248);
+  --blue-600: oklch(0.61 0.15 248);
+  --blue-700: oklch(0.52 0.13 248);
+  --blue-800: oklch(0.41 0.1 248);
+  --blue-900: oklch(0.3 0.07 248);
+  --blue-1000: oklch(0.11 0.03 248);
+
+  --blue-alpha-50: oklch(0.7 0.17 248 / 5%);
+  --blue-alpha-100: oklch(0.7 0.17 248 / 10%);
+  --blue-alpha-200: oklch(0.7 0.17 248 / 15%);
+  --blue-alpha-300: oklch(0.7 0.17 248 / 20%);
+  --blue-alpha-400: oklch(0.7 0.17 248 / 25%);
+  --blue-alpha-500: oklch(0.7 0.17 248 / 30%);
+  --blue-alpha-600: oklch(0.7 0.17 248 / 40%);
+  --blue-alpha-700: oklch(0.7 0.17 248 / 50%);
+  --blue-alpha-800: oklch(0.7 0.17 248 / 60%);
+  --blue-alpha-900: oklch(0.7 0.17 248 / 70%);
+
+  /* Yellow - Warn */
+  --yellow-50: oklch(0.99 0.01 85);
+  --yellow-100: oklch(0.97 0.03 85);
+  --yellow-200: oklch(0.94 0.07 85);
+  --yellow-300: oklch(0.89 0.12 85);
+  --yellow-400: oklch(0.82 0.17 85);
+  --yellow-500: oklch(0.74 0.21 85);
+  --yellow-600: oklch(0.65 0.2 85);
+  --yellow-700: oklch(0.55 0.17 85);
+  --yellow-800: oklch(0.43 0.13 85);
+  --yellow-900: oklch(0.31 0.09 85);
+  --yellow-1000: oklch(0.16 0.04 85);
+
+  --yellow-alpha-50: oklch(0.71 0.24 80 / 5%);
+  --yellow-alpha-100: oklch(0.71 0.24 80 / 10%);
+  --yellow-alpha-200: oklch(0.71 0.24 80 / 15%);
+  --yellow-alpha-300: oklch(0.71 0.24 80 / 20%);
+  --yellow-alpha-400: oklch(0.71 0.24 80 / 25%);
+  --yellow-alpha-500: oklch(0.71 0.24 80 / 30%);
+  --yellow-alpha-600: oklch(0.71 0.24 80 / 40%);
+  --yellow-alpha-700: oklch(0.71 0.24 80 / 50%);
+  --yellow-alpha-800: oklch(0.71 0.24 80 / 60%);
+  --yellow-alpha-900: oklch(0.71 0.24 80 / 70%);
+}
