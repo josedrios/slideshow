@@ -29,7 +29,7 @@ export default function Footer({ slideIndex }: { slideIndex: number }) {
       <p className="footer__log">LOG {logNumber}</p>
       <p className="footer__date">{thing.toUpperCase()}</p>
       <p className="footer__time">{formattedTime}</p>
-      <p className="footer__slide-count">{slideIndex}/{slides.length}</p>
+      <p className="footer__slide-count">{slideIndex + 1}/{slides.length}</p>
     </div>
   )
 }

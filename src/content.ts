@@ -15,9 +15,9 @@ export const slides: Slide[] = [
     img: "another_post.jpg"
   },
   {
-    text: "just text"
+    text: "I bought Dune: Part Three 70mm tickets"
   },
   {
     img: "only_img.jpg"
-  }
+  },
 ]
