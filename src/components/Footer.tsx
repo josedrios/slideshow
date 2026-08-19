@@ -24,12 +24,12 @@ export default function Footer({ slideIndex }: { slideIndex: number }) {
     second: "2-digit",
   });
 
-  // NOTE: index + 1 to fix offset because indexes start at zero but I want UI to start at 1
-  // NOTE: length + 1 to add FIN slide(the end)
+  // NOTE: index + 2 to fix offset from introduction slide and array indexing
+  // NOTE: length + 2 to add INTRODUCTION/FIN slides
 
   return (
     <div className="footer">
-      <p className="footer__slide-count">{slideIndex + 1}/{slides.length + 1}</p>
+      <p className="footer__slide-count">{slideIndex + 2}/{slides.length + 2}</p>
       <p>
         LOG {logNumber}
       </p>

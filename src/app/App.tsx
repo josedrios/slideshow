@@ -4,7 +4,9 @@ import { useState } from "react"
 import { Routes, Route } from "react-router-dom"
 
 function App() {
-  const [slideIndex, setSlideIndex] = useState<number>(0);
+  // NOTE: slideIndex starts at -1 because index: -1 is introduction page, 
+  // also makes it easier to index through slides array
+  const [slideIndex, setSlideIndex] = useState<number>(-1);
   return (
     <main>
       <Routes>

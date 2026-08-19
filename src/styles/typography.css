@@ -43,24 +43,13 @@ body {
 h1,
 h2,
 h3 {
-  font-family: var(--font-family-inter);
+  font-family: var(--font-family-mono);
   font-style: normal;
   font-weight: var(--font-weight-semibold);
   font-optical-sizing: auto;
   color: var(--color-text-neutral-emphasis);
   letter-spacing: var(--letter-spacing-normal);
-}
-
-h1 {
   font-size: var(--font-size-3xl);
-}
-
-h2 {
-  font-size: var(--font-size-2xl);
-}
-
-h3 {
-  font-size: var(--font-size-xl);
 }
 
 p,
