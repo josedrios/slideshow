@@ -1,7 +1,7 @@
 import { logNumber } from '@/content.ts';
 import { useEffect, useState } from 'react';
 
-export default function Header() {
+export default function Footer() {
 
   const thing = new Date().toLocaleDateString("en-US", {
     month: "short",
@@ -25,11 +25,11 @@ export default function Header() {
   });
 
   return (
-    <div className="header">
-      <p className="header__log">LOG {logNumber}</p>
-      <p className="header__date">{thing.toUpperCase()}</p>
-      <p className="header__time">{formattedTime}</p>
-      <p className="header__slide-count">(3/11)</p>
+    <div className="footer">
+      <p className="footer__log">LOG {logNumber}</p>
+      <p className="footer__date">{thing.toUpperCase()}</p>
+      <p className="footer__time">{formattedTime}</p>
+      <p className="footer__slide-count">(3/11)</p>
     </div>
   )
 }

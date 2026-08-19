@@ -6,20 +6,26 @@ html {
   background-color: var(--color-bg-neutral);
   height: 100vh;
   width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 body,
 #root {
   margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
 }
 
 main {
-  margin-inline: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
   height: 100%;
   padding: var(--spacing-6);
 }
+
 
 p,
 a {
