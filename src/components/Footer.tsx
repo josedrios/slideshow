@@ -1,7 +1,7 @@
-import { logNumber } from '@/content.ts';
+import { logNumber, slides } from '@/content.ts';
 import { useEffect, useState } from 'react';
 
-export default function Footer() {
+export default function Footer({ slideIndex }: { slideIndex: number }) {
 
   const thing = new Date().toLocaleDateString("en-US", {
     month: "short",
@@ -29,7 +29,7 @@ export default function Footer() {
       <p className="footer__log">LOG {logNumber}</p>
       <p className="footer__date">{thing.toUpperCase()}</p>
       <p className="footer__time">{formattedTime}</p>
-      <p className="footer__slide-count">(3/11)</p>
+      <p className="footer__slide-count">{slideIndex}/{slides.length}</p>
     </div>
   )
 }
