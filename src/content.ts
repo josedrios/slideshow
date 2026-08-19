@@ -7,7 +7,7 @@ interface Slide {
 
 export const slides: Slide[] = [
   {
-    text: "this is text",
+    text: "First slide",
     img: "test.jpg"
   },
   {

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 export default function Footer({ slideIndex }: { slideIndex: number }) {
 
-  const thing = new Date().toLocaleDateString("en-US", {
+  const now = new Date().toLocaleDateString("en-US", {
     month: "short",
     day: "numeric",
     year: "numeric",
@@ -24,12 +24,23 @@ export default function Footer({ slideIndex }: { slideIndex: number }) {
     second: "2-digit",
   });
 
+  // NOTE: index + 1 to fix offset because indexes start at zero but I want UI to start at 1
+  // NOTE: length + 1 to add FIN slide(the end)
+
   return (
     <div className="footer">
-      <p className="footer__log">LOG {logNumber}</p>
-      <p className="footer__date">{thing.toUpperCase()}</p>
-      <p className="footer__time">{formattedTime}</p>
-      <p className="footer__slide-count">{slideIndex + 1}/{slides.length}</p>
+      <p className="footer__slide-count">{slideIndex + 1}/{slides.length + 1}</p>
+      <p>
+        LOG {logNumber}
+      </p>
+      <p>|</p>
+      <p>
+        {now.toUpperCase()}
+      </p>
+      <p>|</p>
+      <p>
+        {formattedTime}
+      </p>
     </div>
   )
 }
