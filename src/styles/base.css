@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-bg-neutral);
+  height: 100vh;
+  width: 100vw;
+}
+
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  margin-inline: auto;
+  height: 100%;
+  padding: var(--spacing-6);
+}
+
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
